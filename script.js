@@ -44,3 +44,65 @@ console.log({
 
 document.getElementById('cim').style.backgroundColor = 'red';
 document.getElementById('cim').style.border = '2px solid black';
+
+
+
+
+console.log(
+    {
+        firstName: 'John',
+        lastName: 'Doe',
+        age: 25,
+        phoneNumbers: ['+123456789' , '+987654321'],
+adress: {
+    street: 'fő utca',
+    city: 'Budapest',
+    }
+    }.adress.street
+);
+
+
+console.log(
+[
+    {
+        brand: 'Apple',
+        model: 'iPhone 10',
+        price: 250000,
+        provider: {
+            country: 'hu',
+            name: 'vodafone',
+        }
+
+
+    },
+    
+    {
+        brand: 'samsung',
+        model: 'galaxy10',
+        price: 210000,
+        provider: {
+            country: 'hu',
+            name: 'vodafone',
+        }
+
+
+    },
+
+    {
+        brand: 'Huawei',
+        model: 'Mate10',
+        price: 110000,
+        provider: {
+            country: 'hu',
+            name: 'telekom',
+        }
+    }
+]
+)
+
+
+
+
+
+
+
